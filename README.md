@@ -26,3 +26,4 @@ We do _not_ use default `SPA Authentication` https://laravel.com/docs/11.x/sanct
 9. `php artisan migrate`
 10. `php artisan make:controller ProductsController`
 11. `php artisan make:request ProductRequest`
+12. `php artisan config:publish cors`

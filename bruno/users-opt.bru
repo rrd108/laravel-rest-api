@@ -1,13 +1,17 @@
 meta {
-  name: users
+  name: users-opt
   type: http
-  seq: 3
+  seq: 8
 }
 
-options {
+get {
   url: http://localhost:8000/api/users
   body: json
-  auth: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: 10|{{token}}
 }
 
 body:json {
