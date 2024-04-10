@@ -6,3 +6,4 @@
 2. `cd laravel-rest-api`
 3. `php artisan serve`
 4. Edit `.env`, set up mysql database
+5. `php artisan install:api`
