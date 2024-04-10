@@ -7,3 +7,4 @@
 3. `php artisan serve`
 4. Edit `.env`, set up mysql database
 5. `php artisan install:api`
+6. Change User seed && `php artisan db:seed`
