@@ -25,3 +25,4 @@ We do _not_ use default `SPA Authentication` https://laravel.com/docs/11.x/sanct
 8. `php artisan make:migration create_products_table`
 9. `php artisan migrate`
 10. `php artisan make:controller ProductsController`
+11. `php artisan make:request ProductRequest`

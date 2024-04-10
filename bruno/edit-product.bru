@@ -1,0 +1,21 @@
+meta {
+  name: edit-product
+  type: http
+  seq: 6
+}
+
+patch {
+  url: http://localhost:8000/api/products/13
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "category": "Különlegesség"
+  }
+}
