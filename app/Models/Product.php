@@ -9,6 +9,8 @@ class Product extends Model
 {
     use HasFactory;
 
+    public $timestamps = false; // Disable timestamps
+
     protected $fillable = [
         'category',
         'name',

@@ -1,13 +1,17 @@
 meta {
-  name: products
+  name: add-product
   type: http
-  seq: 4
+  seq: 5
 }
 
-get {
+post {
   url: http://localhost:8000/api/products
   body: json
-  auth: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
 }
 
 body:json {
