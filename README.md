@@ -1,5 +1,7 @@
 # Laravel REST API
 
+We do _not_ use default `SPA Authentication` https://laravel.com/docs/11.x/sanctum#spa-authentication
+
 ## Endpoints
 
 | URL          | HTTP method | Auth | JSON Response     |
@@ -20,3 +22,6 @@
 5. `php artisan install:api`
 6. Change User seed && `php artisan db:seed`
 7. `php artisan make:controller UsersController`
+8. `php artisan make:migration create_products_table`
+9. `php artisan migrate`
+10. `php artisan make:controller ProductsController`
